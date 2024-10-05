@@ -41,7 +41,7 @@ public class BookService {
     }
 
     public List<BookReadDto> findBookByTitle(String title) {
-        return bookRepository.findByTitle(title)
+        return bookRepository.findByTitleLike(title)
                 .stream()
                 .map(bookReadMapper::map)
                 .toList();

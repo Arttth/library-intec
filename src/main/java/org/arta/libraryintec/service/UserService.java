@@ -32,7 +32,6 @@ public class UserService {
                 .toList();
     }
 
-    // TODO: return value
     public Optional<UserReadDto> addUser(UserCreateDto userCreateDto) {
         return Optional.of(userCreateDto)
                 .map(userCreateMapper::map)

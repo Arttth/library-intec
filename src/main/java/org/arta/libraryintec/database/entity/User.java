@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Builder
@@ -20,18 +21,16 @@ public class User {
     @Column(name = "user_id")
     private Integer id;
     private String name;
+    @Builder.Default
     @OneToMany(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
-    private List<Book> borrowedBooks;
+    private List<Book> borrowedBooks = new ArrayList<>();
 
     public void addBook(Book book) {
         borrowedBooks.add(book);
     }
 
     public void removeBook(Book book) {
-        borrowedBooks.stream()
-                .filter(myBook -> book.getId().equals(myBook.getId()))
-                .findFirst()
-                .map(borrowedBooks::remove);
+        borrowedBooks.remove(book);
     }
 }
