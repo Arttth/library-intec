@@ -62,6 +62,15 @@ http://localhost:8080/return/1/4
 [http://localhost:8080/return/1/4](http://localhost:8080/books/2
 ```
 ![image](https://github.com/user-attachments/assets/dad36acb-1054-459c-96fe-ba37a7afb2a2)
+# Пример использования клиента
+1. Основное меню
+![image](https://github.com/user-attachments/assets/8a8a3693-e0af-4e61-81bf-d7d981946a8e)
+2. Вывод всех книг
+![image](https://github.com/user-attachments/assets/2d9da8ac-3c73-4e56-bdce-3bf6de619496)
+3. Вывод всех пользователей
+![image](https://github.com/user-attachments/assets/018d4142-f199-4d08-8af5-974bbf0bb3f4)
+
+
 
 
 
