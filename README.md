@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3c51378a-8a2b-4933-b1bf-e74bfa153533)# Описание
+# Описание
 Тестовое задание "Библиотека"
 # Зависимости
 - Spring Boot 3.3.4
