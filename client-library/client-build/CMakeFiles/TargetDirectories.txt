@@ -1,3 +1,0 @@
-/home/tumer1/cpp/client-library/build/CMakeFiles/client_library.dir
-/home/tumer1/cpp/client-library/build/CMakeFiles/edit_cache.dir
-/home/tumer1/cpp/client-library/build/CMakeFiles/rebuild_cache.dir
